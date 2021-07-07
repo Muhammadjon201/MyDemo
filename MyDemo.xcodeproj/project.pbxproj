@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		D4C76EB8269094250065820B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C76EB7269094250065820B /* AppDelegate.swift */; };
 		D4C76EBA269094250065820B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C76EB9269094250065820B /* SceneDelegate.swift */; };
-		D4C76EBC269094250065820B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C76EBB269094250065820B /* ContentView.swift */; };
 		D4C76EBE2690942F0065820B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C76EBD2690942F0065820B /* Assets.xcassets */; };
 		D4C76EC12690942F0065820B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C76EC02690942F0065820B /* Preview Assets.xcassets */; };
 		D4C76EC42690942F0065820B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C76EC22690942F0065820B /* LaunchScreen.storyboard */; };
+		D4C76ED1269094C20065820B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C76ED0269094C20065820B /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4C76EB4269094250065820B /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C76EB7269094250065820B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4C76EB9269094250065820B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4C76EBB269094250065820B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D4C76EBD2690942F0065820B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4C76EC02690942F0065820B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4C76EC32690942F0065820B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4C76EC52690942F0065820B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C76ED0269094C20065820B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +56,10 @@
 		D4C76EB6269094250065820B /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4C76ECF269094A20065820B /* screens */,
+				D4C76ECC269094550065820B /* apputilis */,
 				D4C76EB7269094250065820B /* AppDelegate.swift */,
 				D4C76EB9269094250065820B /* SceneDelegate.swift */,
-				D4C76EBB269094250065820B /* ContentView.swift */,
-				D4C76EBD2690942F0065820B /* Assets.xcassets */,
-				D4C76EC22690942F0065820B /* LaunchScreen.storyboard */,
 				D4C76EC52690942F0065820B /* Info.plist */,
 				D4C76EBF2690942F0065820B /* Preview Content */,
 			);
@@ -73,6 +72,23 @@
 				D4C76EC02690942F0065820B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4C76ECC269094550065820B /* apputilis */ = {
+			isa = PBXGroup;
+			children = (
+				D4C76EC22690942F0065820B /* LaunchScreen.storyboard */,
+				D4C76EBD2690942F0065820B /* Assets.xcassets */,
+			);
+			path = apputilis;
+			sourceTree = "<group>";
+		};
+		D4C76ECF269094A20065820B /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				D4C76ED0269094C20065820B /* HomeScreen.swift */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +163,7 @@
 			files = (
 				D4C76EB8269094250065820B /* AppDelegate.swift in Sources */,
 				D4C76EBA269094250065820B /* SceneDelegate.swift in Sources */,
-				D4C76EBC269094250065820B /* ContentView.swift in Sources */,
+				D4C76ED1269094C20065820B /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
